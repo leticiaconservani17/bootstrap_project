@@ -1,0 +1,28 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+    margin-top: 20px;
+}
+.card {
+    padding: 20px;
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.carousel-inner {
+    height: 500px;
+}
+
+.carousel-image {
+    height: 100%;
+    object-fit: cover;
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
